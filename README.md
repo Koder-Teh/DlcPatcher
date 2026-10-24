@@ -1,10 +1,10 @@
-# DlcPatcher
+# Patcher
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B%20%2F%20C%23%20%2F%20Rust-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
-**DlcPatcher** is a lightweight console utility for applying binary patches (hex patches) to game executables. With its help, you can unlock DLCs, bonuses, or modify specific functions in a game without resorting to complex HEX editors.
+**Patcher** is a lightweight console utility for applying binary patches (hex patches) to game executables. With its help, you can unlock DLCs, bonuses, or modify specific functions in a game without resorting to complex HEX editors.
 
 ## 🚀 Features
 
@@ -18,7 +18,7 @@
 The utility operates via the command line.
 
 ```bash
-dlcpatcher <exe game> <config for game>
+patcher <exe game> <config for game>
 ```
 
 **Parameters:**
@@ -27,7 +27,7 @@ dlcpatcher <exe game> <config for game>
 
 **Example:**
 ```bash
-dlcpatcher "C:\Games\100 Orange Juice\100orange.exe" "100orange.txt"
+patcher "C:\Games\100 Orange Juice\100orange.exe" "100orange.txt"
 ```
 
 ## ⚙️ Configuration File Format
