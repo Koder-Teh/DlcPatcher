@@ -43,6 +43,16 @@ namespace Patcher
 
         static void Main(string[] args)
         {
+            if(args.Length == 0)
+            {
+                Console.WriteLine("========== Patcher ==========");
+                Console.WriteLine("patcher <exe path> <config path>");
+                Console.WriteLine("<exe path> - Program for patch");
+                Console.WriteLine("<config path> - Template for patch of program");
+                Console.WriteLine("========== Patcher ==========");
+                return;
+            }
+
             FileInfo file = new FileInfo(args[0]);
             FileInfo fileconfig = new FileInfo(args[1]);
             if (!file.Exists || args[0] == string.Empty)
