@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace DlcPatcher
+namespace Patcher
 {
     [JsonSerializable(typeof(Sample))]
     internal partial class SourceGenerationContext : JsonSerializerContext { }
